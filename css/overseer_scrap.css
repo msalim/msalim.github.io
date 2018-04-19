@@ -1,0 +1,107 @@
+﻿body
+{
+  background-color: #FFF;
+  color: #000;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 300;
+  max-width: 80%;
+  margin: auto;
+
+}
+
+div
+{
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+  font-family: 'Heebo', sans-serif;
+  font-weight: 300;
+  color: #000;
+  margin: 12px;
+  line-height: 1em;
+}
+
+h1
+{
+  font-size: 60px;
+}
+
+h2
+{
+  font-size: 48px;
+}
+
+h3
+{
+  font-size: 36px;
+  font-weight: 400;
+}
+
+h4
+{
+  font-size: 24px;
+}
+
+h5
+{
+  font-size: 18px;
+}
+
+h6
+{
+  font-size: 14px;
+}
+
+p
+{
+    font-size: 12px;
+}
+a
+{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* begin header */
+  div#header
+  {
+
+    width: auto;
+    clear: both;
+    position: relative;
+    overflow: hidden;
+    top: 50px;
+  }
+
+  /* header is divided into two parts; left side is my name,
+   * and right side is my contacts. The contacts are now disabled. */
+  div#header_name
+  {
+    white-space: nowrap;
+    float: left;
+    width: 50%;
+  }
+
+  div#header_links
+  {
+    float: right;
+    width: 50%;
+  }
+/* end header */
+
+/* begin main body */
+
+  div#content
+  {
+      position: relative;
+      top: 200px;
+  }
+
+  div.experience_block
+  {
+    position: relative;
+    top: 50px;
+  }

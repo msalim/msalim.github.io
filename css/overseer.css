@@ -1,0 +1,330 @@
+﻿body
+{
+    background-color: #DDD;
+    color: #000;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 300;
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+
+h1, h2, h3, h4, h5, h6, p
+{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 300;
+    color: inherit;
+    margin: 12px;
+    line-height: 1.3em;
+}
+
+    h1
+    {
+        font-weight: 400;
+        font-size: 5.5em;
+        line-height: 1.1em;
+    }
+
+    h2
+    {
+        font-size: 4em;
+    }
+
+    h3
+    {
+        font-size: 2.5em;
+        line-height: 1.3em;
+    }
+
+    h4
+    {
+        font-size: 2em;
+        font-weight: 400;
+    }
+
+    h5
+    {
+        font-size: 1.5em;
+    }
+
+    h6
+    {
+        font-size: 1.2em;
+    }
+
+    p
+    {
+        font-size: 1em;
+    }
+
+    a
+    {
+      text-decoration: none;
+      color: inherit;
+    }
+
+.text-width
+{
+    width: 80%;
+}
+
+.align-left
+{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+  /* Persistent top navigation bar */
+#navbar
+{
+width: 100%;
+max-width: 1600px;
+display: inline-block;
+overflow: hidden;
+z-index: 1337;
+position: fixed;
+top: 0px;
+    
+background-color: #222;
+opacity: 0.85;    
+}
+
+ul#navbar-links
+{
+float:right;
+list-style-type: none;
+margin: 0;
+padding: 0;
+padding-right: 10px;
+overflow: hidden;
+}
+
+ul#navbar-links li
+{
+display: inline-block;
+}
+
+ul#navbar-links a
+{
+font-size: 20px;
+color: #EEE;
+
+display: block;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+/* End persistent top navigation bar */
+
+/* Home section */
+div#home
+{
+height: 800px;
+position: relative;
+overflow: hidden;
+background-image: url("../img/top_me.jpg");
+background-size: cover;
+background-position: left center;
+color:#FFF;
+
+}
+  
+/* Home: Text divs */  
+#hometext-jumbo-center
+{
+text-align: left;
+top: 30%;
+height: inherit;
+position: relative; 
+}
+
+#hometext-bottom-right
+{
+text-align: right;
+bottom: 70px;
+height: inherit;
+position: relative;
+width: 95%;
+}
+/* End home section */
+
+/* You're awesome special section!*/
+#youreawesome
+{
+    position:relative;
+    height: 100px;
+    top: 20px;
+    bottom: 30px;
+}
+
+#youreawesome a
+{
+    color: #EEE;
+}
+/* End you're awesome special section :(*/
+
+/* The You're Awesome / Amplify Humanity Campaign section */
+#humanity
+{
+    background-color:#FFF;
+    position:relative;
+    padding-top: 50px;
+}
+
+    #humanity-header
+    {
+        position:relative;
+        left: 10%;
+        padding-bottom: 20px;
+
+        text-align:center;
+    }
+
+    #humanity-fooddrive
+    {
+  
+    }
+
+/* Projects section */
+#projects
+{
+position:relative;
+overflow: hidden;
+background: white;
+padding-bottom: 50px;
+}
+
+    #projects-content
+    {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    }
+
+    #projectstext-header
+    {
+    top: 70px;
+    position: relative;
+
+    }
+
+    ul#projects-list
+    {
+
+    list-style-type: none;
+    position: relative;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+
+    }
+
+    ul#projects-list img
+    {
+    width: 100%;
+    }
+
+    ul#projects-list li
+    {
+    display: inline-block;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    margin: 10px;
+    }
+
+    ul#projects-list a
+    {
+    color: #222;
+    }
+
+    ul#links a
+    {
+    font-size: 20px;
+    color: #EEE;
+
+    display: block;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+
+.projects-box
+{
+min-height: 40vh;
+width: 400px;
+display: inline-flex;
+position: relative;
+background-color: rgba(0, 0, 0, 0.7);
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 5vh;
+}
+
+/* End projects section */
+
+[class*="col-"]
+{
+width: 100%;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* Old Contacts section
+div#contact
+{
+height: 100vh;
+background-image: url("../img/contact_fence.jpg");
+background-size: cover;
+background-position: center center;
+}
+
+#contacttext-jumbo-center
+{
+top: 30%;
+position: relative; 
+margin-left: 15%;
+margin-right: 15%;
+width: 70%;
+text-align: center;
+}
+
+#contacttext-bottom
+{
+text-align: center;
+top: 80vh;
+position: relative;
+width: 100%;
+}
+
+End contacts section */
+
+div#contact
+{
+background-color: #DDD;
+width: 80%;
+margin-left: 10%;
+text-align: center;
+}
+
+#contact a
+{
+color: #BBB;
+}
+
+
+
